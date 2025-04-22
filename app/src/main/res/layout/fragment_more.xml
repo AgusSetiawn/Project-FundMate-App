@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/image_preview2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/border_5"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/user" />
+
+    <Button
+        android:id="@+id/button_pilih_foto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Foto"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:backgroundTint="@color/biru_sec"/>
+
+    <EditText
+        android:id="@+id/edit_nama2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Masukkan Nama"
+        android:layout_marginTop="24dp"
+        android:textColorHint="@color/hint_color"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:background="@drawable/border_2"
+        />
+
+    <Button
+        android:id="@+id/button_simpan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:backgroundTint="@color/teal_700"/>
+
+    <Button
+        android:id="@+id/button_logout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:backgroundTint="@android:color/holo_red_dark"/>
+
+</LinearLayout>

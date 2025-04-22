@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white90">
+
+    <!-- Card for Bar Graph -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="390dp"
+        android:layout_height="290dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/white"
+        android:elevation="8dp"
+        app:cardCornerRadius="8dp">
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChart"
+            android:layout_width="360dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center"/>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Card for Pie Chart -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="390dp"
+        android:layout_height="290dp"
+        android:backgroundTint="@color/white"
+        android:elevation="8dp"
+        app:cardCornerRadius="8dp">
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pieChart"
+            android:layout_width="360dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center" />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

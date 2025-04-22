@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg3"
+    tools:context=".SignupActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Signup"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="15dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="412dp"
+        android:layout_height="730dp"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="420dp"
+            android:layout_height="730dp"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp"
+            android:background="@drawable/border">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Selamat Datang!"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Halo Mate! Buat akun baru untuk memulai perjalanan Anda di Fundmate dan nikmati berbagai fitur menarik!"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/signup_name"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/border_2"
+                android:drawableLeft="@drawable/user1"
+                android:textCursorDrawable="@drawable/text_cursor"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="Name"
+                android:textColorHint="@color/hint_colorv2"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:ellipsize="end"
+                android:scrollHorizontally="true"
+                android:maxLines="1"
+                android:inputType="text"
+                />
+
+            <EditText
+                android:id="@+id/signup_email"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/border_2"
+                android:drawableLeft="@drawable/envelope"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="Email"
+                android:textColorHint="@color/hint_colorv2"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:ellipsize="end"
+                android:scrollHorizontally="true"
+                android:maxLines="1"
+                android:inputType="textEmailAddress"
+            />
+
+
+            <EditText
+                android:id="@+id/signup_username"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/border_2"
+                android:drawableLeft="@drawable/circle_user"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="Username"
+                android:textColorHint="@color/hint_colorv2"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:ellipsize="end"
+                android:scrollHorizontally="true"
+                android:maxLines="1"
+                android:inputType="text"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- EditText untuk Password -->
+                <EditText
+                    android:id="@+id/signup_password"
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/border_2"
+                    android:drawableLeft="@drawable/lock"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:hint="Password"
+                    android:textColorHint="@color/hint_colorv2"
+                    android:textSize="16sp"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:ellipsize="end"
+                    android:scrollHorizontally="true"
+                    android:maxLines="1"/>
+
+                <!-- ImageView untuk Mata (Eye) di sebelah kanan -->
+                <ImageView
+                    android:id="@+id/password_eye"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/eye_crossed"
+                    android:contentDescription="Eye"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginTop="33dp"
+                    android:layout_marginBottom="10dp"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/signup_button"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="@drawable/background_gradient"
+                android:fontFamily="@font/poppins_medium"
+                android:text="SignUp"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:backgroundTint="@null"
+                android:layout_gravity="center"
+                android:textStyle="bold"  />
+
+            <TextView
+                android:id="@+id/loginRedirectText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_medium"
+                android:padding="8dp"
+                android:text="Sudah Punya Akun? Login Sekarang!"
+                android:textStyle="bold"
+                android:textColor="@color/biru_sec"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "691833817105",
+    "project_id": "fundmate-dc1f1",
+    "storage_bucket": "fundmate-dc1f1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691833817105:android:09590fa48e91689e0009b0",
+        "android_client_info": {
+          "package_name": "com.fundmate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWJEm50ELW9nZ79wJuFNuOKhpmxpmEuHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

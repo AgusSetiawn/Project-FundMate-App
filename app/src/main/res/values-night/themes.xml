@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BottomNavigation" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Warna Logo ketika Di pencet -->
+        <item name="colorPrimary">@color/white</item>
+        <!-- bar di atas -->
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Stroke buletan -->
+        <item name="colorSecondary">@color/biru_sec</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- bar di atas  -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="EditTextStyle">
+        <item name="android:textColorHint">@color/hint_colorv2</item>
+    </style>
+</resources>

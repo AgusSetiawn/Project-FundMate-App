@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilih Kategori"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/biru_sec"/>
+
+        <GridLayout
+            android:id="@+id/grid_kategori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="2"
+            android:layout_marginBottom="16dp">
+            <!-- Icon akan diisi lewat kode nanti -->
+        </GridLayout>
+
+        <EditText
+            android:id="@+id/input_jumlah"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Masukkan Jumlah (Rp)"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColorHint="@color/hint_colorv2"
+            android:textColor="@color/black"
+            android:background="@drawable/border_2"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/button_simpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan Transaksi"
+            android:background="@drawable/background_gradient"
+            app:backgroundTint="@null"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</ScrollView>
