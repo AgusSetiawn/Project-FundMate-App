@@ -6,6 +6,9 @@
 |Laras Sakti|312310627|
 |Nabil Lio Sawares|312310651|
 
+# LINK TRELLO
+https://trello.com/invite/b/67d90f9891af3afc494cb16f/ATTI2c8c0c3e14a302b0a23de3c00d7eaee6294A34C4/project-team 
+
 
 ![StoryBoard](https://github.com/user-attachments/assets/27aa607f-46b8-4e6a-ad25-ccd3c2814907)
 
