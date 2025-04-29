@@ -62,7 +62,7 @@ Navigasi bawah aplikasi terdiri dari 4 menu utama:
 - Akun (pengaturan profil)
 
 # Tujuan Pengembangan
-FundMate bertujuan menjadi solusi sederhana dan efektif dalam membantu masyarakat mencatat keuangan pribadi, mengontrol pengeluaran, serta membuat keputusan finansial yang lebih bijak melalui visualisasi data yang jelas dan fitur yang mudah digunakan.
+FundMate bertujuan menjadi solusi sederhana dan efektif dalam membantu masyarakat mencatat keuangan pribadi, mengontrol pengeluaran, serta membuat keputusan finansial yang lebih bijak melalui visualisasi data yang jelas dan fitur yang mudah digunakan..
 
 
 
